@@ -7,6 +7,6 @@ public class CreditCard extends Card {
     
     @Override
     public double getInterestRate() {
-        return 1.5; // Bunga 1.5% untuk credit card
+        return 15.0; 
     }
 }

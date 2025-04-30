@@ -7,6 +7,6 @@ public class PlatinumCard extends Card {
     
     @Override
     public double getInterestRate() {
-        return 1.0; // Bunga 1.0% untuk platinum card
+        return 10.0; 
     }
 }
