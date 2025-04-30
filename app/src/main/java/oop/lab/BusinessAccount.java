@@ -66,6 +66,6 @@ public class BusinessAccount extends BankAccount implements OnlineService, LoanS
 
     @Override
     public String checkLoanStatus() {
-        return loanStatus;
+        return "Pending";
     }
 }
